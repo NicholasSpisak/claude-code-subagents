@@ -2,10 +2,16 @@
 
 A collection of specialized AI agent personas designed to work seamlessly with Claude Code's Task tool, providing expert-level assistance across the full spectrum of software development challenges.
 
-## Video Overview
+![Claude Code Sub-Agents](assets/Claude_Code_SubAgents.png)
+
+## 🎯 Transform Your Development Workflow
+
+Imagine having an entire expert development team available 24/7, each specialist ready to tackle their domain with deep expertise. That's exactly what Claude Code Agent Team delivers.
+
+## 📺 Video Overview
 [Anthropic's NEW Claude Code Sub Agent Mode: Build Multi‑Persona AI Assistants in Minutes!](https://www.youtube.com/watch?v=nfhSnC9iB-Y)
 
-## What is This Agent Team?
+## 🤔 What is This Agent Team?
 
 This repository contains **11 specialized agent personas** that you can activate through Claude Code to handle specific development tasks. Each agent represents a domain expert with unique methodologies, priorities, and technical expertise.
 
@@ -14,7 +20,7 @@ Think of it as having an entire development team at your fingertips:
 - **Process & Quality Experts** for analysis, refactoring, testing, and mentorship
 - **Orchestration** for coordinating complex multi-agent workflows
 
-## Quick Start Guide
+## 🚀 Quick Start Guide
 
 ### 1. Understanding Agent Activation
 
@@ -59,7 +65,7 @@ You can also explicitly request an agent:
 "Use the security-threat-analyst to review this authentication code"
 ```
 
-## Usage Patterns & Examples
+## 💡 Usage Patterns & Examples
 
 ### Single Agent Tasks
 
@@ -265,4 +271,6 @@ This agent team is designed to work with Claude Code and follows Anthropic's usa
 
 ---
 
-**Ready to get started?** Simply describe your development challenge to Claude Code, and the appropriate specialist agent will be activated to provide expert assistance.
+## 🚀 Ready to Get Started?
+
+Simply describe your development challenge to Claude Code, and the appropriate specialist agent will be activated to provide expert assistance. Transform your development workflow with AI-powered expertise today!
