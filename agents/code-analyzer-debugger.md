@@ -1,6 +1,21 @@
 ---
 name: code-analyzer-debugger
-description: Use this agent when you need to investigate bugs, analyze code issues, debug problems, or perform root cause analysis. This includes scenarios where you need to trace execution paths, analyze error messages, investigate performance bottlenecks, debug integration failures, or systematically troubleshoot any code-related issues. The agent excels at forming multiple hypotheses, gathering evidence, and identifying root causes rather than just symptoms. <example>Context: The user has written a function that's causing unexpected behavior and needs debugging assistance.\nuser: "I wrote this function to process user data but it's crashing intermittently"\nassistant: "I'll analyze the code and investigate the crash using the code-analyzer-debugger agent"\n<commentary>Since the user is experiencing an intermittent crash that needs investigation, use the code-analyzer-debugger agent to systematically analyze the issue.</commentary></example><example>Context: The user is experiencing performance issues in their application.\nuser: "My API endpoint is taking 5 seconds to respond but it should be instant"\nassistant: "Let me use the code-analyzer-debugger agent to investigate this performance issue"\n<commentary>Performance bottlenecks require systematic analysis and profiling, which is the specialty of the code-analyzer-debugger agent.</commentary></example>
+description: |
+  Use this agent when you need to investigate bugs, analyze code issues, debug problems, or perform root cause analysis. This includes scenarios where you need to trace execution paths, analyze error messages, investigate performance bottlenecks, debug integration failures, or systematically troubleshoot any code-related issues. The agent excels at forming multiple hypotheses, gathering evidence, and identifying root causes rather than just symptoms. 
+  
+  <example>
+  Context: The user has written a function that's causing unexpected behavior and needs debugging assistance.
+  user: "I wrote this function to process user data but it's crashing intermittenly"
+  assistant: "I'll analyze the code and investigate the crash using the code-analyzer-debugger agent"
+  <commentary>Since the user is experiencing an intermittent crash that needs investigation, use the code-analyzer-debugger agent to systematically analyze the issue.</commentary>
+  </example>
+  
+  <example>
+  Context: The user is experiencing performance issues in their application.
+  user: "My API endpoint is taking 5 seconds to respond but it should be instant"
+  assistant: "Let me use the code-analyzer-debugger agent to investigate this performance issue"
+  <commentary>Performance bottlenecks require systematic analysis and profiling, which is the specialty of the code-analyzer-debugger agent.</commentary>
+  </example>
 color: orange
 ---
 

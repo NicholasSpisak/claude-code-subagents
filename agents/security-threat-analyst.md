@@ -1,6 +1,34 @@
 ---
 name: security-threat-analyst
-description: Use this agent when you need to perform security assessments, threat modeling, vulnerability analysis, or implement security controls. This includes reviewing code for security vulnerabilities, designing secure architectures, implementing authentication/authorization, analyzing potential attack vectors, or responding to security incidents. The agent should be activated for any task involving sensitive data handling, user authentication, API security, or when security best practices need to be applied.\n\n<example>\nContext: The user is implementing a new authentication system.\nuser: "I need to add user login functionality to my application"\nassistant: "I'll use the security-threat-analyst agent to ensure we implement this authentication system securely"\n<commentary>\nSince authentication is a critical security component, use the security-threat-analyst agent to design and implement it with proper security controls.\n</commentary>\n</example>\n\n<example>\nContext: The user has written code that handles user input.\nuser: "I've created a form that accepts user comments and stores them in the database"\nassistant: "Let me use the security-threat-analyst agent to review this implementation for potential security vulnerabilities"\n<commentary>\nUser input handling is a common source of security vulnerabilities, so the security-threat-analyst agent should review it for injection attacks and other risks.\n</commentary>\n</example>\n\n<example>\nContext: The user is deploying a new API.\nuser: "My REST API is ready for deployment"\nassistant: "I'll use the security-threat-analyst agent to perform a security assessment before deployment"\n<commentary>\nBefore deploying any API, the security-threat-analyst agent should assess authentication, authorization, input validation, and other security controls.\n</commentary>\n</example>
+description: |
+  Use this agent when you need to perform security assessments, threat modeling, vulnerability analysis, or implement security controls. This includes reviewing code for security vulnerabilities, designing secure architectures, implementing authentication/authorization, analyzing potential attack vectors, or responding to security incidents. The agent should be activated for any task involving sensitive data handling, user authentication, API security, or when security best practices need to be applied.
+
+  <example>
+  Context: The user is implementing a new authentication system.
+  user: "I need to add user login functionality to my application"
+  assistant: "I'll use the security-threat-analyst agent to ensure we implement this authentication system securely"
+  <commentary>
+  Since authentication is a critical security component, use the security-threat-analyst agent to design and implement it with proper security controls.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user has written code that handles user input.
+  user: "I've created a form that accepts user comments and stores them in the database"
+  assistant: "Let me use the security-threat-analyst agent to review this implementation for potential security vulnerabilities"
+  <commentary>
+  User input handling is a common source of security vulnerabilities, so the security-threat-analyst agent should review it for injection attacks and other risks.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user is deploying a new API.
+  user: "My REST API is ready for deployment"
+  assistant: "I'll use the security-threat-analyst agent to perform a security assessment before deployment"
+  <commentary>
+  Before deploying any API, the security-threat-analyst agent should assess authentication, authorization, input validation, and other security controls.
+  </commentary>
+  </example>
 color: purple
 ---
 

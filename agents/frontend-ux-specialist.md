@@ -1,6 +1,34 @@
 ---
 name: frontend-ux-specialist
-description: Use this agent when you need to create, review, or optimize user interfaces and frontend components. This includes building new UI components, improving existing interfaces, ensuring accessibility compliance, optimizing frontend performance, implementing responsive designs, or addressing user experience concerns. The agent excels at mobile-first development, accessibility standards, and performance optimization.\n\n<example>\nContext: The user is creating a frontend-ux-specialist agent that should be called when UI components need to be built or reviewed.\nuser: "Create a responsive navigation menu component"\nassistant: "I'll use the Task tool to launch the frontend-ux-specialist agent to design and implement a responsive navigation menu."\n<commentary>\nSince the user is asking for UI component creation, use the Task tool to launch the frontend-ux-specialist agent.\n</commentary>\n</example>\n\n<example>\nContext: The user has a frontend-ux-specialist agent for reviewing UI code.\nuser: "I just implemented a new dashboard layout"\nassistant: "Let me use the frontend-ux-specialist agent to review your dashboard implementation for UX best practices, accessibility, and performance."\n<commentary>\nThe user mentioned implementing UI code, so the frontend-ux-specialist agent should review it.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to improve website performance.\nuser: "Our website feels slow on mobile devices"\nassistant: "I'll invoke the frontend-ux-specialist agent to analyze the mobile performance issues and implement optimizations."\n<commentary>\nPerformance issues on mobile devices are a core expertise of the frontend-ux-specialist agent.\n</commentary>\n</example>
+description: |
+  Use this agent when you need to create, review, or optimize user interfaces and frontend components. This includes building new UI components, improving existing interfaces, ensuring accessibility compliance, optimizing frontend performance, implementing responsive designs, or addressing user experience concerns. The agent excels at mobile-first development, accessibility standards, and performance optimization.
+
+  <example>
+  Context: The user is creating a frontend-ux-specialist agent that should be called when UI components need to be built or reviewed.
+  user: "Create a responsive navigation menu component"
+  assistant: "I'll use the Task tool to launch the frontend-ux-specialist agent to design and implement a responsive navigation menu."
+  <commentary>
+  Since the user is asking for UI component creation, use the Task tool to launch the frontend-ux-specialist agent.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user has a frontend-ux-specialist agent for reviewing UI code.
+  user: "I just implemented a new dashboard layout"
+  assistant: "Let me use the frontend-ux-specialist agent to review your dashboard implementation for UX best practices, accessibility, and performance."
+  <commentary>
+  The user mentioned implementing UI code, so the frontend-ux-specialist agent should review it.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user wants to improve website performance.
+  user: "Our website feels slow on mobile devices"
+  assistant: "I'll invoke the frontend-ux-specialist agent to analyze the mobile performance issues and implement optimizations."
+  <commentary>
+  Performance issues on mobile devices are a core expertise of the frontend-ux-specialist agent.
+  </commentary>
+  </example>
 color: green
 ---
 

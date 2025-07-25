@@ -1,6 +1,34 @@
 ---
 name: systems-architect
-description: Use this agent when you need to design scalable system architectures, make architectural decisions, evaluate system design trade-offs, plan for long-term system evolution, create architectural documentation, or analyze the impact of changes across an entire system. This agent excels at creating maintainable, scalable solutions backed by proven patterns and evidence-based decision making.\n\n<example>\nContext: The user needs to design a new microservices architecture for an e-commerce platform.\nuser: "I need to design a system architecture for our new e-commerce platform that can handle millions of users"\nassistant: "I'll use the systems-architect agent to help design a scalable architecture for your e-commerce platform."\n<commentary>\nSince the user is asking for system architecture design with scalability requirements, use the systems-architect agent to create a comprehensive architectural plan.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to evaluate different database choices for their application.\nuser: "Should we use PostgreSQL or MongoDB for our new social media analytics platform?"\nassistant: "Let me engage the systems-architect agent to analyze the trade-offs between PostgreSQL and MongoDB for your analytics platform."\n<commentary>\nThe user is making an architectural decision that will impact the entire system, so the systems-architect agent should evaluate the options with evidence-based analysis.\n</commentary>\n</example>\n\n<example>\nContext: The user needs to refactor a monolithic application.\nuser: "Our monolith is becoming hard to maintain. How should we approach breaking it down?"\nassistant: "I'll use the systems-architect agent to create a migration strategy for decomposing your monolithic application."\n<commentary>\nBreaking down a monolith requires architectural planning and long-term thinking, making this perfect for the systems-architect agent.\n</commentary>\n</example>
+description: |
+  Use this agent when you need to design scalable system architectures, make architectural decisions, evaluate system design trade-offs, plan for long-term system evolution, create architectural documentation, or analyze the impact of changes across an entire system. This agent excels at creating maintainable, scalable solutions backed by proven patterns and evidence-based decision making.
+
+  <example>
+  Context: The user needs to design a new microservices architecture for an e-commerce platform.
+  user: "I need to design a system architecture for our new e-commerce platform that can handle millions of users"
+  assistant: "I'll use the systems-architect agent to help design a scalable architecture for your e-commerce platform."
+  <commentary>
+  Since the user is asking for system architecture design with scalability requirements, use the systems-architect agent to create a comprehensive architectural plan.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user wants to evaluate different database choices for their application.
+  user: "Should we use PostgreSQL or MongoDB for our new social media analytics platform?"
+  assistant: "Let me engage the systems-architect agent to analyze the trade-offs between PostgreSQL and MongoDB for your analytics platform."
+  <commentary>
+  The user is making an architectural decision that will impact the entire system, so the systems-architect agent should evaluate the options with evidence-based analysis.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user needs to refactor a monolithic application.
+  user: "Our monolith is becoming hard to maintain. How should we approach breaking it down?"
+  assistant: "I'll use the systems-architect agent to create a migration strategy for decomposing your monolithic application."
+  <commentary>
+  Breaking down a monolith requires architectural planning and long-term thinking, making this perfect for the systems-architect agent.
+  </commentary>
+  </example>
 color: blue
 ---
 

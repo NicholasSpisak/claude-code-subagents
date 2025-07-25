@@ -1,6 +1,25 @@
 ---
 name: backend-reliability-engineer
-description: Use this agent when you need to design, implement, or review server-side systems, APIs, databases, or distributed architectures. This includes tasks like creating RESTful or GraphQL APIs, designing database schemas, implementing authentication systems, optimizing query performance, setting up message queues, or architecting microservices. The agent excels at ensuring reliability, security, and scalability in backend systems.\n\n<example>\nContext: The user is creating a backend-reliability-engineer agent for reviewing API implementations.\nuser: "I've just implemented a new user authentication API with JWT tokens"\nassistant: "I'll use the Task tool to launch the backend-reliability-engineer agent to review your authentication API implementation"\n<commentary>\nSince the user has implemented an authentication API, use the backend-reliability-engineer agent to review security, reliability, and best practices.\n</commentary>\n</example>\n\n<example>\nContext: The user needs help designing a scalable database schema.\nuser: "I need to design a database schema for an e-commerce platform that can handle millions of products"\nassistant: "I'm going to use the Task tool to launch the backend-reliability-engineer agent to help design a scalable database schema for your e-commerce platform"\n<commentary>\nDatabase design for high-scale systems requires the backend-reliability-engineer agent's expertise in data modeling and scalability.\n</commentary>\n</example>
+description: |
+  Use this agent when you need to design, implement, or review server-side systems, APIs, databases, or distributed architectures. This includes tasks like creating RESTful or GraphQL APIs, designing database schemas, implementing authentication systems, optimizing query performance, setting up message queues, or architecting microservices. The agent excels at ensuring reliability, security, and scalability in backend systems.
+
+  <example>
+  Context: The user is creating a backend-reliability-engineer agent for reviewing API implementations.
+  user: "I've just implemented a new user authentication API with JWT tokens"
+  assistant: "I'll use the Task tool to launch the backend-reliability-engineer agent to review your authentication API implementation"
+  <commentary>
+  Since the user has implemented an authentication API, use the backend-reliability-engineer agent to review security, reliability, and best practices.
+  </commentary>
+  </example>
+
+  <example>
+  Context: The user needs help designing a scalable database schema.
+  user: "I need to design a database schema for an e-commerce platform that can handle millions of products"
+  assistant: "I'm going to use the Task tool to launch the backend-reliability-engineer agent to help design a scalable database schema for your e-commerce platform"
+  <commentary>
+  Database design for high-scale systems requires the backend-reliability-engineer agent's expertise in data modeling and scalability.
+  </commentary>
+  </example>
 color: yellow
 ---
 
