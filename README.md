@@ -2,6 +2,9 @@
 
 A collection of specialized AI agent personas designed to work seamlessly with Claude Code's Task tool, providing expert-level assistance across the full spectrum of software development challenges.
 
+## Video Overview
+[Anthropic's NEW Claude Code Sub Agent Mode: Build Multiâ€‘Persona AI Assistants in Minutes!](https://www.youtube.com/watch?v=nfhSnC9iB-Y)
+
 ## What is This Agent Team?
 
 This repository contains **11 specialized agent personas** that you can activate through Claude Code to handle specific development tasks. Each agent represents a domain expert with unique methodologies, priorities, and technical expertise.
@@ -63,19 +66,19 @@ You can also explicitly request an agent:
 **Frontend Development:**
 ```
 "Create a responsive navigation menu component with accessibility features"
-’ Activates: frontend-ux-specialist
+â€™ Activates: frontend-ux-specialist
 ```
 
 **Security Review:**
 ```
 "Review this user input handling code for vulnerabilities"  
-’ Activates: security-threat-analyst
+â€™ Activates: security-threat-analyst
 ```
 
 **Performance Investigation:**
 ```
 "My API endpoint is taking 5 seconds to respond"
-’ Activates: performance-optimizer
+â€™ Activates: performance-optimizer
 ```
 
 ### Multi-Agent Coordination
@@ -83,16 +86,16 @@ You can also explicitly request an agent:
 **Complex Feature Development:**
 ```
 "Implement a complete user authentication system"
-’ Activates: product-manager-orchestrator
-’ Coordinates: security-threat-analyst, backend-reliability-engineer, 
+â€™ Activates: product-manager-orchestrator
+â€™ Coordinates: security-threat-analyst, backend-reliability-engineer, 
                frontend-ux-specialist, qa-test-engineer
 ```
 
 **Production Issue Resolution:**
 ```
 "Our payment system is failing intermittently"
-’ Activates: product-manager-orchestrator  
-’ Coordinates: code-analyzer-debugger, security-threat-analyst,
+â€™ Activates: product-manager-orchestrator  
+â€™ Coordinates: code-analyzer-debugger, security-threat-analyst,
                backend-reliability-engineer, qa-test-engineer
 ```
 
@@ -118,31 +121,31 @@ Each agent has distinct priorities and methodologies:
 ### 1. Feature Development Flow
 ```
 Research (deep-research-specialist) 
-’ Architecture (systems-architect)
-’ Security Planning (security-threat-analyst)  
-’ Implementation (frontend/backend specialists)
-’ Testing (qa-test-engineer)
-’ Optimization (performance-optimizer)
-’ Documentation (technical-mentor-guide)
+â€™ Architecture (systems-architect)
+â€™ Security Planning (security-threat-analyst)  
+â€™ Implementation (frontend/backend specialists)
+â€™ Testing (qa-test-engineer)
+â€™ Optimization (performance-optimizer)
+â€™ Documentation (technical-mentor-guide)
 ```
 
 ### 2. Bug Investigation Flow
 ```  
 Initial Analysis (code-analyzer-debugger)
-’ Security Assessment (if applicable)
-’ Fix Implementation (domain specialist)
-’ Testing & Validation (qa-test-engineer)
-’ Documentation (technical-mentor-guide)
+â€™ Security Assessment (if applicable)
+â€™ Fix Implementation (domain specialist)
+â€™ Testing & Validation (qa-test-engineer)
+â€™ Documentation (technical-mentor-guide)
 ```
 
 ### 3. Code Quality Improvement Flow
 ```
 Analysis (code-analyzer-debugger)
-’ Refactoring Plan (code-refactoring-expert)  
-’ Architecture Review (systems-architect)
-’ Implementation (refactoring-expert)
-’ Performance Validation (performance-optimizer)
-’ Quality Gates (qa-test-engineer)
+â€™ Refactoring Plan (code-refactoring-expert)  
+â€™ Architecture Review (systems-architect)
+â€™ Implementation (refactoring-expert)
+â€™ Performance Validation (performance-optimizer)
+â€™ Quality Gates (qa-test-engineer)
 ```
 
 ## Best Practices
