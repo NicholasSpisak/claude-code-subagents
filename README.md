@@ -9,7 +9,8 @@ A collection of specialized AI agent personas designed to work seamlessly with C
 Imagine having an entire expert development team available 24/7, each specialist ready to tackle their domain with deep expertise. That's exactly what Claude Code Agent Team delivers.
 
 ## 📺 Video Overview
-[Anthropic's NEW Claude Code Sub Agent Mode: Build Multi‑Persona AI Assistants in Minutes!](https://www.youtube.com/watch?v=nfhSnC9iB-Y)
+[Part 1: Anthropic's NEW Claude Code Sub Agent Mode: Build Multi‑Persona AI Assistants in Minutes!](https://www.youtube.com/watch?v=nfhSnC9iB-Y)
+[Part 2: Setting up Claude Code Subagents](https://youtu.be/2sbWnlT12c8)
 
 ## 🧠 Understanding the Agent Mental Model
 
