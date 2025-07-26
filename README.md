@@ -53,24 +53,24 @@ Think of it as having an entire development team at your fingertips:
 - Did it suggest specific investigation steps?
 - Did it provide evidence-based insights?
 
-**Troubleshooting**: If you got generic responses, [see our activation guide](#agent-not-activating)
+**Troubleshooting**: If you got generic responses, see the troubleshooting section below.
 
 ## 📚 Your Learning Journey
 
 ### 🟢 Beginner (New to AI-assisted development)
-- Start here: [Understanding Agents](#understanding-the-agent-mental-model)
-- First task: [Try a Simple Agent](#your-first-agent-interaction-5-minutes)
-- Validation: [Check Your Understanding](#knowledge-checkpoints)
+- Start here: Understanding the Agent Mental Model (see above)
+- First task: Try the 5-minute first interaction guide
+- Validation: Use the Knowledge Checkpoints section
 
 ### 🟡 Intermediate (Familiar with AI tools)
-- Jump to: [Multi-Agent Workflows](#multi-agent-coordination)
-- Challenge: [Implement a Complete Feature](#feature-development-flow)
-- Advance: [Custom Workflows](#advanced-usage)
+- Jump to: Multi-Agent Coordination examples
+- Challenge: Try a complete feature workflow
+- Advance: Custom workflow patterns
 
 ### 🔴 Advanced (Ready for complex orchestration)
-- Explore: [Agent Consultation Patterns](#agent-consultation)
-- Master: [Custom Agent Sequences](#custom-workflows)
-- Contribute: [Agent Development](#contributing-to-agent-development)
+- Explore: Agent consultation patterns in Advanced Usage
+- Master: Custom agent sequences
+- Contribute: Use the agent specification format
 
 ## 🎯 Available Specialist Agents
 
@@ -325,7 +325,7 @@ color: visual-identifier
 ## Troubleshooting
 
 ### Agent Not Activating
-- Use more specific domain keywords (see [Agent Decision Matrix](#agent-decision-matrix))
+- Use more specific domain keywords (see Agent Decision Matrix above)
 - Explicitly mention the agent type you need
 - Provide more context about the problem type
 - Try: "Use the [agent-name] agent to..." for explicit activation
@@ -344,7 +344,7 @@ color: visual-identifier
 
 ### New Agent Integration Issues
 - If unfamiliar with senior-software-engineer, prd-writer, or content-marketer-writer
-- Check their specific capabilities in [Available Specialist Agents](#available-specialist-agents)
+- Check their specific capabilities in the Available Specialist Agents section above
 - Try explicit requests: "Use the content-marketer-writer to create technical documentation"
 
 ## Advanced Usage
