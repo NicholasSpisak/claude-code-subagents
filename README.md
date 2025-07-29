@@ -1,6 +1,6 @@
 # Claude Code Agent Team
 
-A collection of specialized AI agent personas designed to work seamlessly with Claude Code's Task tool, providing expert-level assistance across the full spectrum of software development challenges.
+A collection of specialized AI agent personas designed to work seamlessly with Claude Code's Task tool, providing expert-level assistance across the full spectrum of software development challenges. Originally just a list of SDLC (software development lifecycle agents) in the "core" directory. Now have included from other repositories as well. See credits section at the bottom of the README for credit/contributions.
 
 ![Claude Code Sub-Agents](assets/Claude_Code_SubAgents.png)
 
@@ -382,3 +382,6 @@ This agent team is designed to work with Claude Code and follows Anthropic's usa
 ## 🚀 Ready to Get Started?
 
 Simply describe your development challenge to Claude Code, and the appropriate specialist agent will be activated to provide expert assistance. Transform your development workflow with AI-powered expertise today!
+
+## Credits Due 
+* Contains Studio - design, marketing, product, project-management, operations, testing
